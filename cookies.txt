@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.miyagami.com	TRUE	/	FALSE	1999999999	_cfuvid	1ih8FywfK6GLB.nZgrRu6Q.UoPCAcoYDMLvyWPJY4Bk-1786958050.0079918-1.0.1.1-ykQm_Da_.bOV81ptSZuJevyhqFgHcOiGPjRlG4P.ZZ0
-www.miyagami.com	TRUE	/	FALSE	1999999999	SameSite	None
-

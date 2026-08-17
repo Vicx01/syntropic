@@ -1,8 +1,0 @@
-https://www.miyagami.com/ -O /data/data/com.termux/files/home/storage/downloads/miyagami-clone +www.miyagami.com/* +cdn.prod.website-files.com/* +d3e54v103j8qbb.cloudfront.net/* +cdn.jsdelivr.net/* -js-eu1.hs-scripts.com/* -hubspotv2.use1-marketplace-1p-apps-prod-red.if.webflow.services/* -*/wp-admin/* -*/wp-login.php* -s0 -F "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 Chrome/131.0.0.0 Mobile Safari/537.36"
-File generated automatically on Mon, 17 Aug 2026 10:14:07, do NOT edit
-
-To update a mirror, just launch httrack without any parameters
-The existing cache will be used (and modified)
-To have other options, retype all parameters and launch HTTrack
-To continue an interrupted mirror, just launch httrack without any parameters
-
