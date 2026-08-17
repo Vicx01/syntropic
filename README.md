@@ -34,6 +34,11 @@ into a flat, self-contained site. All CSS/JS/images are local under `assets/`.
 - **Analytics**: Google gtag is served locally (`assets/js/gtag.js`); the
   HubSpot embeds point at their original external URLs and fail silently
   offline.
+- **SRI note**: the published pages pinned `integrity="sha…"` hashes on their
+  CSS/JS tags. Those hashes went stale the moment the mirrored files were
+  localized (path rewrites), which made browsers block the stylesheets and
+  render pages unstyled — the attributes were removed site-wide so the
+  original, complete stylesheets and scripts apply again.
 - **Cloudflare email protection**: `assets/js/email-decode.min.js` is a local
   re-implementation of Cloudflare's decoder — it converts the protected
   `#<hex>` links back into `mailto:` links.
