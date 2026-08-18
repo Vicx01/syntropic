@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Syntropic Tech Open Graph card -->
+  <rect width="1200" height="630" fill="#0B1435"/>
+  <g opacity="0.16" stroke="#2563EB" stroke-width="1.5">
+    <path d="M60 90h90M60 90v60M1050 540h90M1140 540v-60M980 80h120M1100 80v70M80 500v70M80 500h80"/>
+  </g>
+  <g fill="#2563EB" opacity="0.35">
+    <circle cx="150" cy="90" r="5"/><circle cx="60" cy="150" r="5"/><circle cx="1050" cy="540" r="5"/><circle cx="1140" cy="480" r="5"/><circle cx="980" cy="80" r="5"/><circle cx="1100" cy="150" r="5"/><circle cx="80" cy="570" r="5"/><circle cx="160" cy="500" r="5"/>
+  </g>
+  <g transform="translate(490 120) scale(7.4)">
+    <rect width="34" height="34" rx="8" fill="#101F52" stroke="#2563EB" stroke-width="1"/>
+    <path d="M24.5 10.2C23.2 8.3 20.4 7.3 17.2 7.3C13.2 7.3 10.3 9.1 10.3 12C10.3 14.8 12.6 16 16.4 16.9C20.6 17.9 23.7 18.9 23.7 22.1C23.7 25.2 20.6 26.7 16.9 26.7C13.4 26.7 10.7 25.6 9.5 23.6"
+          stroke="#2563EB" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="9.5" cy="23.6" r="2.4" fill="#60A5FA"/>
+    <circle cx="24.5" cy="10.2" r="2.4" fill="#60A5FA"/>
+  </g>
+  <text x="600" y="480" text-anchor="middle" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-weight="700" font-size="74" letter-spacing="6" fill="#FFFFFF">SYNTROPIC TECH</text>
+  <text x="600" y="536" text-anchor="middle" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-weight="500" font-size="30" letter-spacing="2" fill="#93C5FD">Smart Solutions. Stronger Future.</text>
+  <text x="600" y="590" text-anchor="middle" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-weight="600" font-size="22" letter-spacing="8" fill="#2563EB">BUILD. SECURE. SCALE.</text>
+</svg>

@@ -1,7 +1,28 @@
-# Miyagami — static site (cleaned HTTrack mirror)
+# Syntropic Tech — static site (rebranded mirror)
 
-Static mirror of `www.miyagami.com`, restructured from the raw HTTrack output
-into a flat, self-contained site. All CSS/JS/images are local under `assets/`.
+Static mirror of miyagami.com, fully rebranded to **Syntropic Tech**
+("Smart Solutions. Stronger Future.") and restructured from raw HTTrack
+output into a flat, self-contained site. CSS/JS/images live under `assets/`.
+
+## Rebrand notes
+
+- **Palette**: deep navy `#0B1435` + electric blue `#2563EB` with light-blue
+  accents (`#1D4ED8`, `#60A5FA`, `#93C5FD`) — swapped via the Webflow
+  `_brand-colors` token block in every stylesheet.
+- **Typography**: Inter (body) + Space Grotesk (display) via Google Fonts;
+  Space Mono kept as the mono accent.
+- **Identity**: circuit-node "S" mark (`assets/images/syntropic-*.svg`,
+  favicon/touch-icon/OG rendered from it).
+- **Services** mapped to the blueprint: `it-consultancy.html`,
+  `software-development.html`, `it-support.html`, plus a new
+  `cyber-security.html` (cloned template — body copy still needs real
+  content). Nav dropdowns, footers and the homepage "What we do" grid all
+  list four services.
+- **Contact**: `info@syntropictech.com` (placeholder), phone/WhatsApp
+  `0816 768 5277` (`tel:+2348167685277`, `wa.me/2348167685277`), Maitama,
+  Abuja — footer cards, contact schema and JSON-LD updated.
+- Blog retains the "Insights" section (190+ articles) and Portfolio is the
+  old Work section relabeled; case-study content is source material.
 
 ## Structure
 
