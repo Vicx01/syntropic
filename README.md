@@ -28,12 +28,16 @@ into a flat, self-contained site. All CSS/JS/images are local under `assets/`.
 - **Serving**: it's plain static HTML — serve the repo root with any web server,
   e.g. `python3 -m http.server 8000`. Opening files via `file://` also works,
   but a server is recommended (srcset/fonts behave better).
+- **Webflow runtime (animations/interactions)**: the Webflow JS bundle is
+  code-split — it lazily loads 17 `…achunk.<hash>.js` files at runtime, which
+  mirror tools cannot capture. The three runtime `<script>` tags therefore
+  point at the absolute CDN URLs, so webpack resolves its chunks from the CDN
+  too. Pages render fully styled offline; animations/interactions need
+  internet (same as the fonts below). CSS/jQuery/GSAP/Swiper/Finsweet are
+  served locally.
 - **Fonts**: the Webflow CSS loads brand fonts (SpaceMono, Fracktif,
   HelveticaNeue) from `https://cdn.prod.website-files.com/…` absolute URLs.
   They load when online and fall back to system fonts when offline.
-- **Analytics**: Google gtag is served locally (`assets/js/gtag.js`); the
-  HubSpot embeds point at their original external URLs and fail silently
-  offline.
 - **SRI note**: the published pages pinned `integrity="sha…"` hashes on their
   CSS/JS tags. Those hashes went stale the moment the mirrored files were
   localized (path rewrites), which made browsers block the stylesheets and
