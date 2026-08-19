@@ -12,6 +12,6 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
 .container-medium.is-navbar{column-gap:1rem}
 .syntropic-brand{min-width:0;overflow:hidden}
 .syntropic-brand-text{overflow:hidden;text-overflow:ellipsis}
-@media screen and (max-width:991px){
-  #cta.button.is-nav{display:none}
-}
+/* CTA visible from tablet up (override original 991px hide); phones use the menu */
+@media screen and (min-width:768px){#cta.button.is-nav{display:inline-block!important}}
+@media screen and (max-width:767px){#cta.button.is-nav{display:none}}
