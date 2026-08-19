@@ -6,3 +6,11 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
 .navbar .brand.w-nav-brand{width:auto;max-width:55vw}
 @media screen and (max-width:991px){.syntropic-brand{gap:7px}.syntropic-brand-mark{width:auto;height:24px}.syntropic-brand-text{display:none}}
 @media screen and (max-width:479px){.navbar .brand.w-nav-brand{max-width:60vw}.syntropic-brand{gap:6px}.syntropic-brand-mark{width:auto;height:22px}.syntropic-brand-text{display:none}}
+
+/* Syntropic Tech: mobile nav hardening */
+.container-medium.is-navbar{column-gap:1rem}
+.syntropic-brand{min-width:0;overflow:hidden}
+.syntropic-brand-text{overflow:hidden;text-overflow:ellipsis}
+@media screen and (max-width:991px){
+  #cta.button.is-nav{display:none}
+}

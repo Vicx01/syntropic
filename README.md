@@ -47,7 +47,8 @@ output into a flat, self-contained site. CSS/JS/images live under `assets/`.
 ## Notes
 
 - **Serving**: it's plain static HTML — serve the repo root with any web server,
-  e.g. `python3 -m http.server 8000`. Opening files via `file://` also works,
+  e.g. `node serve.js` (sends no-cache headers + correct MIME types) or
+  `python3 -m http.server 8000`. Opening files via `file://` also works,
   but a server is recommended (srcset/fonts behave better).
 - **Webflow runtime (animations/interactions)**: the Webflow JS bundle is
   code-split — it lazily loads 17 `…achunk.<hash>.js` files at runtime, which
