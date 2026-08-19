@@ -14,4 +14,14 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
 .syntropic-brand-text{overflow:hidden;text-overflow:ellipsis}
 /* CTA visible from tablet up (override original 991px hide); phones use the menu */
 @media screen and (min-width:768px){#cta.button.is-nav{display:inline-block!important}}
-@media screen and (max-width:767px){#cta.button.is-nav{display:none}}
+/* compact CTA on phones: visible but smaller than the navbar */
+@media screen and (max-width:767px){
+  #cta.button.is-nav{display:inline-flex!important;align-items:center;
+    padding:.5rem .7rem;font-size:.75rem;line-height:1;letter-spacing:0}
+  #cta.button.is-nav .btn-text{font-size:.75rem;line-height:1}
+  #cta.button.is-nav .icon-embed-custom1{width:14px;height:14px}
+  #cta.button.is-nav .icon-embed-custom1 svg{width:100%;height:100%}
+}
+@media screen and (max-width:479px){
+  #cta.button.is-nav{padding:.45rem .6rem}
+}
