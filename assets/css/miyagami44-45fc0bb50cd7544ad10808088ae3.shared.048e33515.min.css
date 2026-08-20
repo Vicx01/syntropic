@@ -25,3 +25,9 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
 @media screen and (max-width:479px){
   #cta.button.is-nav{padding:.45rem .6rem}
 }
+
+/* Syntropic Tech: WCAG contrast fixes */
+.button .text-color-grey{color:var(--light-grey)}
+.w-nav-button.w--open{background-color:#0B1435}
+.w-button{background-color:#2563EB}
+.tag.is-transparent{color:#FFFFFF}
